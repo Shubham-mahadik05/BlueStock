@@ -99,6 +99,33 @@ main {
     color: white;
     border: none;
 }
+/* fotter */
+.faq-question {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0;
+}
+.faq-answer {
+    display: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+    background: #fff;
+}
+.faq-question:hover {
+    background: #e9ecef;
+}
+.faq-item {
+    margin-bottom: 10px;
+}
 
 /* Media Queries for Responsive Design */
 @media (max-width: 768px) {
