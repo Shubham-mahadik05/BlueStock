@@ -18,6 +18,11 @@ body {
     font-weight: bold;
     color: black;
 }
+.logo img {
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -111,7 +116,7 @@ main {
     align-items: center;
     color: #555;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 0px;
     margin: 0;
 }
 .faq-answer {
